@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container" id="formContainer">
+      <div class="subscription">
+        <div>
+          <img src="unsplash.jpg" alt="Newsletter" />
+        </div>
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Join thousands getting emails in their inbox.</p>
+
+        <input
+          type="email"
+          id="email"
+          placeholder="email@example.com"
+          required
+        />
+        <div id="message"></div>
+        <button id="subscribeBtn" type="button">Subscribe</button>
+      </div>
+    </div>
+
+    <dialog id="successDialog">
+      <div class="dialog-content">
+        <div class="image-container">
+          <img src="Icon.png" alt="Success" />
+        </div>
+
+        <h2 id="successText"></h2>
+        <button id="closeDialog">Thanks</button>
+      </div>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>
